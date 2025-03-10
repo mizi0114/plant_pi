@@ -8,8 +8,8 @@ Equipment List:
 
 ![PXL_20250301_160030228](https://github.com/user-attachments/assets/b273e57b-d1ad-4171-8e33-2f5879c670a6)
 
-Using Crontab to schedule each script. First, at 10:00 'plantcam.py' is ran, taking, then saving the image of the day with the corresponding date. 
+I used crontab to schedule each script. First, at 10:00 'plantcam.py' is ran, taking, then saving the image of the day with the corresponding date to a dedicated folder for the pictures. 
 
-Then, at 10:05, 'plantpi2.py' is ran, selecting, then sending the new picture to a Telegram channel of your choice.
+After, at 10:05, 'plantpi2.py' is ran, selecting, then sending the new picture to my Telegram channel.
 
 ![Untitled](https://github.com/user-attachments/assets/38230bd4-24f6-43bd-ae24-d8d07ab21918)
